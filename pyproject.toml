@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "weather-service"
+version = "0.1.0"
+description = ""
+authors = ["Ihor Siedielnikov <sisemail92@gmail.com>"]
+readme = "README.md"
+packages = [{include = "weather_service"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.1"
+python-dotenv = "^1.0.1"
+httpx = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
